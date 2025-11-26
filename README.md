@@ -1,7 +1,6 @@
 <h1 align="center">
-  <code>CurriculumICL</code>
   <br>
-  🧩&nbsp;Problem-Solving Logic Guided Curriculum ICL
+  🧩&nbsp;Problem-Solving Logic Guided Curriculum In-Context Learning for LLMs Complex Reasoning
 </h1>
 
 <p align="center">
