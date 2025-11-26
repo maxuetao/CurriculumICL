@@ -1,27 +1,37 @@
-# CurriculumICL
+<h1 align="center">
+  <code>CurriculumICL</code>
+  <br>
+  🧩&nbsp;Problem-Solving Logic Guided Curriculum ICL
+</h1>
 
-This repository contains the official code for the paper [“Problem-Solving Logic Guided Curriculum In-Context Learning for LLMs Complex Reasoning”](https://aclanthology.org/2025.findings-acl.440/)，which has been accepted at **ACL 2025 Findings**.
+<p align="center">
+  <a href="https://aclanthology.org/2025.findings-acl.440/">
+    <img src="https://img.shields.io/badge/ACL_2025-Findings-blue.svg" alt="ACL 2025 Findings">
+  </a>
+  <a href="https://github.com/hiyouga/LLaMA-Factory">
+    <img src="https://img.shields.io/badge/Built_with-LLaMA--Factory-f39c12.svg" alt="LLaMA-Factory">
+  </a>
+</p>
 
-## Overview
+---
 
-This repository provides the necessary dataset and training script to fine-tune a language model for analyzing problem-solving logic.
+### 🔍 Overview
+We release the **processed BREAK dataset** and a **one-click training script** that turn any LLaMA-Factory installation into a *problem-solving logic analyzer*—no extra code required.
 
-## Quick Start
+### ⚡ Quick Start
+| Step | Action |
+|------|--------|
+| 1 | `git clone https://github.com/hiyouga/LLaMA-Factory.git` |
+| 2 | Drop `break_full.json` & `break_sft.sh` into the LLaMA-Factory folder |
+| 3 | `bash break_sft.sh` → wait → done! |
 
-### Prerequisites
-1. Download and install [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
-2. Prepare your environment with the required dependencies
+### 📦 Files
+| File | Description |
+|------|-------------|
+| `break_full.json` | BREAK instances re-formatted for SFT |
+| `break_sft.sh` | Ready-made LLaMA-Factory training cmd |
 
-### Training
-1. **Dataset**: Use the provided `break_full.json` dataset file
-2. **Training Script**: Execute `break_sft.sh` to start fine-tuning
-3. **Configuration**: Configure the dataset and training parameters in LLaMA-Factory
-
-## Files Included
-- `break_full.json` - Processed BREAK dataset for question solving
-- `break_sft.sh` - Training script for supervised fine-tuning
-
-## Citation
+### 📖 Citation
 If you find this work helpful, please cite:
 ```bibtex
 @inproceedings{ma-etal-2025-problem,
