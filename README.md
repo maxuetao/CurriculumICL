@@ -1,7 +1,6 @@
 # CurriculumICL
 
-&gt; This repository contains the official code for the paper  
-&gt; [“Problem-Solving Logic Guided Curriculum In-Context Learning for LLMs Complex Reasoning”](https://aclanthology.org/2025.findings-acl.440/)，which has been accepted at **ACL 2025 Findings**.
+This repository contains the official code for the paper [“Problem-Solving Logic Guided Curriculum In-Context Learning for LLMs Complex Reasoning”](https://aclanthology.org/2025.findings-acl.440/)，which has been accepted at **ACL 2025 Findings**.
 
 ## Question Solving Logic Model
 
