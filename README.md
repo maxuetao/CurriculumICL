@@ -2,13 +2,9 @@
 
 This repository contains the official code for the paper [“Problem-Solving Logic Guided Curriculum In-Context Learning for LLMs Complex Reasoning”](https://aclanthology.org/2025.findings-acl.440/)，which has been accepted at **ACL 2025 Findings**.
 
-## Question Solving Logic Model
-
-This project fine-tunes a language model for question solving using the LLaMA-Factory framework.
-
 ## Overview
 
-This repository provides the necessary dataset and training script to fine-tune a language model for question solving logic. Built on top of [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), it enables efficient fine-tuning of language models for question-answering tasks.
+This repository provides the necessary dataset and training script to fine-tune a language model for analyzing problem-solving logic.
 
 ## Quick Start
 
